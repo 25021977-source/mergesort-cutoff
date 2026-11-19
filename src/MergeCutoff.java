@@ -34,7 +34,7 @@ private static void merge(int[] a, int[] aux, int lo, int mid, int hi) {
         }
     }
 }
-private static void sort(int[] a, int[] aux, int lo, int hi, int cutoff) {
+ static void sort(int[] a, int[] aux, int lo, int hi, int cutoff) {
     if (hi <= lo) return;
 
     if (hi - lo + 1 <= cutoff) {
